@@ -1,0 +1,51 @@
+h1{
+  font: Arial;
+  color: #090909;
+  text-align: center;
+  font-size: 71px;
+  margin-bottom: 0;
+  margin-top: 24px;
+}
+
+.reset-button{
+    text-align: center;
+    line-height: 25px;
+    height:25px;
+    width:157px;
+    margin: 0 auto;
+    font-size: 15px;
+    vertical-align: top;
+    background-color: grey;
+    color:white;
+}
+
+.board {
+  width: 458px;
+  height: 460px;
+  background-color: black;
+  margin: 20px auto;
+}
+
+.box {
+  vertical-align: top;
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  display: inline-block;
+  margin: 2px auto;
+  line-height: 150px;
+  font-size: 120px;
+  text-align: center;
+}
+#score-board, #legacy-score {
+  vertical-align: top;
+  width: 458px;
+  height: 70px;
+  background-color: #090909;
+  color:white;
+  display: inline-block;
+  margin: 2px auto;
+  line-height: 70px;
+  font-size: 45px;
+  text-align: center;
+}
